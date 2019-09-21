@@ -1,0 +1,142 @@
+.PrintWork {
+    background-color: #61dafb;
+}
+    
+body {
+    width: 400px;
+    margin: 40px auto;
+    padding: 0;    
+}
+
+#root {
+    padding: 1px 0;
+    background-color: #53676d;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    min-height: 85px;
+    padding: 5px;
+}
+
+.main-container {
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.information-section {
+    font-size: 14px;
+    margin: 2px 0;
+}
+
+.forbackroundclose {
+     background-color: #e1e4e4;
+      margin: 8px 
+}
+
+.forbackroundopen {
+    background-color:white;
+}
+
+.forbackroundclosedone {
+    background-color: #53676d;
+    margin: 8px;
+}
+
+.forbackroundopendone {
+    background-color:white;
+}
+
+.forMyId1 {
+    height: 25px;
+    width: 25px;
+    background-color: #d50000;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.status-circle {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #dedede;
+}
+
+.opened {
+    background-color: #e90052;
+}
+
+.closed-done {
+    background-color: #4688f1;
+}
+
+.status-section {
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.address-section {
+    display: flex;
+    width: 55%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.time-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-right: 12px;
+    width: 25%;
+    font-size: 14px;
+    font-weight: 600;
+    color: #9b9b9b;
+}
+
+.green-time {
+     color: green ;
+}
+
+.red-time {
+    color: #d50000;
+}
+
+.wrong-time {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons-container {
+    margin-right: 8px;
+}
+
+.buttons-section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.fillRed {
+    fill: #d50000
+}
+
+.text-size {
+    font-size: small;
+    color: #2988E8;
+}
